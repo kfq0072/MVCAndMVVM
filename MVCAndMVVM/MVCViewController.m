@@ -17,12 +17,16 @@
 @end
 
 @implementation MVCViewController
+-(void)dealloc{
 
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"MVC";
     [self creatTableView];
     [self getData];
+    
+   
     
 }
 

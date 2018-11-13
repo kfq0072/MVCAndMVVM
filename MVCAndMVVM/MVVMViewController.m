@@ -9,6 +9,7 @@
 #import "MVVMViewController.h"
 #import "MyTableDataSource.h"
 #import "PersonViewModel.h"
+#import "ExternObject.h"
 @interface MVVMViewController (){
     UITableView *_mTableView;
     MyTableDataSource *_dataSource;
@@ -18,6 +19,10 @@
 
 @implementation MVVMViewController
 
+-(void)dealloc
+{
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self creatTableView];
@@ -26,6 +31,7 @@
         _dataSource.personArray = personArray;
         [_mTableView reloadData];
     }];
+    NSLog(@"%@",MJTypeInt);
     // Do any additional setup after loading the view.
 }
 

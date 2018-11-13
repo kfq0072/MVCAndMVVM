@@ -18,6 +18,7 @@
 		75290A5F1EEB8D6E00B3099E /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75290A5E1EEB8D6E00B3099E /* MVVMViewController.m */; };
 		75290A621EEB901B00B3099E /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75290A611EEB901B00B3099E /* PersonViewModel.m */; };
 		75290A651EEB90C500B3099E /* MyTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 75290A641EEB90C500B3099E /* MyTableDataSource.m */; };
+		75290A6A1EEBD0C600B3099E /* ExternObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75290A691EEBD0C600B3099E /* ExternObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		75290A611EEB901B00B3099E /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 		75290A631EEB90C500B3099E /* MyTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableDataSource.h; sourceTree = "<group>"; };
 		75290A641EEB90C500B3099E /* MyTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableDataSource.m; sourceTree = "<group>"; };
+		75290A691EEBD0C600B3099E /* ExternObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternObject.m; sourceTree = "<group>"; };
+		75290A6B1EEBD15B00B3099E /* ExternObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				75290A611EEB901B00B3099E /* PersonViewModel.m */,
 				75290A631EEB90C500B3099E /* MyTableDataSource.h */,
 				75290A641EEB90C500B3099E /* MyTableDataSource.m */,
+				75290A691EEBD0C600B3099E /* ExternObject.m */,
+				75290A6B1EEBD15B00B3099E /* ExternObject.h */,
 				75290A551EEB80D600B3099E /* Person.h */,
 				75290A561EEB80D600B3099E /* Person.m */,
 				75290A431EEB7FF500B3099E /* Main.storyboard */,
@@ -181,6 +186,7 @@
 				75290A621EEB901B00B3099E /* PersonViewModel.m in Sources */,
 				75290A5F1EEB8D6E00B3099E /* MVVMViewController.m in Sources */,
 				75290A571EEB80D600B3099E /* Person.m in Sources */,
+				75290A6A1EEBD0C600B3099E /* ExternObject.m in Sources */,
 				75290A3C1EEB7FF500B3099E /* main.m in Sources */,
 				75290A541EEB806900B3099E /* MVCViewController.m in Sources */,
 				75290A651EEB90C500B3099E /* MyTableDataSource.m in Sources */,
